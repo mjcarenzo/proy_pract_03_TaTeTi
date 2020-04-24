@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Juego del TaTeTi</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/estilos.css">
+        <script type="text/javascript" src="js/main.js"></script>
+        <link rel="icon" href="img/tatetifav.ico" sizes="64x64">
+    </head>
+    <body>
+        <section id="principal">
+            <article id="comandos">
+                <h2>Jugador 1:</h2>
+                <input type="text" id="jugador1"><br/>
+                <h2>Jugador 2:</h2>
+                <input type="text" id="jugador2"><br/>
+                <input type="button" id="iniciar" value="Comenzar"><br/>
+                <label id="turnoJugador"></label><br/><br/>
+                <label id="fichas1"></label><br/><br/>
+                <label id="fichas2"></label>
+            </article>
+            <article id="tablero">
+                <input type="button" id="b0" onclick="colocar(this)">
+                <input type="button" id="b1" onclick="colocar(this)">
+                <input type="button" id="b2" onclick="colocar(this)"><br/>
+
+                <input type="button" id="b3" onclick="colocar(this)">
+                <input type="button" id="b4" onclick="colocar(this)">
+                <input type="button" id="b5" onclick="colocar(this)"><br/>
+
+                <input type="button" id="b6" onclick="colocar(this)">
+                <input type="button" id="b7" onclick="colocar(this)">
+                <input type="button" id="b8" onclick="colocar(this)"><br/>
+            </article>
+        </section>
+    </body>
+</html>
